@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+
+Back-end Java, IT Academy
+M8 - Milestone 3
+Roger Torrent
+
+BBDD XML de prueba
+Declaración DTD externa--><!DOCTYPE database SYSTEM "M8_Milestone3.dtd">
+<database>
+    <usuari registre="1812-09-07" update="2000-01-01T00:00:00">
+        <password>-527200144</password>
+        <nom>Marc-Antoine</nom>
+        <cognom>Charpentier</cognom>
+        <videos>
+            <video timestamp="1692-08-03T00:00:00">
+                <URL>https://www.arts-florissants.org/main/en_GB/all-the-videos/charpentier-te-deum-h-147-les-arts-florissants-william-christie.html</URL>
+                <titol>Vatel</titol>
+                <durada>00:01:03</durada>
+                <tags>
+                    <tag>Gérard Depardieu</tag>
+                    <tag>Uma Thurman</tag>
+                    <tag>Tim Roth</tag>
+                </tags>
+            </video>
+        </videos>
+    </usuari>
+    <usuari registre="1793-01-21" update="2000-01-01T00:00:00">
+        <password>94750438</password>
+        <nom>Clint</nom>
+        <cognom>Eastwood</cognom>
+        <videos>
+            <video timestamp="1914-11-01T00:00:00">
+                <URL>https://www.goshootindoors.com/story-behind-dirty-harrys-44-magnum/</URL>
+                <titol>Dirty Harry</titol>
+                <durada>00:01:01</durada>
+                <tags>
+                    <tag>Smith &amp; Wesson Model 29</tag>
+                    <tag>Harry Callahan</tag>
+                </tags>
+            </video>
+            <video timestamp="1915-01-24T00:00:00">
+                <URL>http://www.enniomorricone.org/</URL>
+                <titol>Per un pugno di dollari</titol>
+                <durada>00:00:24</durada>
+                <tags>
+                    <tag>Spaghetti Western</tag>
+                    <tag>Sergio Leone</tag>
+                </tags>
+            </video>
+            <video timestamp="1916-05-31T00:00:00">
+                <URL>https://www.rogerebert.com/reviews/great-movie-unforgiven-1992</URL>
+                <titol>Unforgiven</titol>
+                <durada>00:00:31</durada>
+                <tags>
+                    <tag>Western</tag>
+                </tags>
+            </video>
+        </videos>
+    </usuari>
+    <usuari registre="1796-03-30" update="2000-01-01T00:00:00">
+        <password>-1185926286</password>
+        <nom>Johann Carl Friedrich</nom>
+        <cognom>Gauß</cognom>
+        <videos>
+            <video timestamp="1972-04-21T02:23:35">
+                <URL>jar:http://www.foo.com/bar/baz.jar!/COM/foo/</URL>
+                <titol>Airbag</titol>
+                <durada>00:00:21</durada>
+                <tags/>
+            </video>
+            <video timestamp="1969-11-19T06:54:35">
+                <URL>file://d:/peliculas</URL>
+                <titol>Hot Shots!</titol>
+                <durada>00:01:19</durada>
+                <tags/>
+            </video>
+            <video timestamp="1969-07-20T20:17:40">
+                <URL>file:///~/java</URL>
+                <titol>Irma la Douce</titol>
+                <durada>00:00:20</durada>
+                <tags/>
+            </video>
+            <video timestamp="1972-12-11T19:54:57">
+                <URL>http://www.inwap.com/pdp10/hbaker/hakmem/hakmem.html</URL>
+                <titol>Les visiteurs</titol>
+                <durada>00:01:11</durada>
+                <tags/>
+            </video>
+            <video timestamp="1970-04-14T03:08:00">
+                <URL>https://www.smbc-comics.com/</URL>
+                <titol>Monty Python's Life of Brian</titol>
+                <durada>00:01:14</durada>
+                <tags/>
+            </video>
+            <video timestamp="1971-07-30T22:16:29">
+                <URL>ftp://192.168.1.1:21/</URL>
+                <titol>One, Two, Three</titol>
+                <durada>00:00:30</durada>
+                <tags/>
+            </video>
+            <video timestamp="1971-02-05T09:18:11">
+                <URL>mailto:mrsmith@mrandmrssmith.com</URL>
+                <titol>Who Framed Roger Rabbit</titol>
+                <durada>00:01:05</durada>
+                <tags/>
+            </video>
+        </videos>
+    </usuari>
+    <usuari registre="1815-06-18" update="2000-01-01T00:00:00">
+        <password>-1074367640</password>
+        <nom>Michel</nom>
+        <cognom>Ney</cognom>
+        <videos/>
+    </usuari>
+    <usuari registre="1805-10-21" update="2021-05-18T11:56:23">
+        <password>108690423</password>
+        <nom>Roger</nom>
+        <cognom>Torrent</cognom>
+        <videos>
+            <video timestamp="1943-02-19T00:00:00">
+                <URL>https://www.bcdb.com/bcdb/cartoon.cgi?film=20691</URL>
+                <titol>Porco Rosso</titol>
+                <durada>00:01:19</durada>
+                <tags>
+                    <tag>Hidroaviones</tag>
+                    <tag>Hayao Miyazaki</tag>
+                    <tag>Anime</tag>
+                </tags>
+            </video>
+            <video timestamp="1943-07-05T00:00:00">
+                <URL>https://www.imdb.com/title/tt0089881/</URL>
+                <titol>Ran</titol>
+                <durada>00:01:05</durada>
+                <tags>
+                    <tag>Akira Kurosawa</tag>
+                    <tag>Medieval Japan</tag>
+                    <tag>Shakespeare's King Lear</tag>
+                </tags>
+            </video>
+            <video timestamp="1941-09-08T00:00:00">
+                <URL>https://www.filmaffinity.com/ca/film498665.html</URL>
+                <titol>Robin Hood: Prince of Thieves</titol>
+                <durada>00:01:08</durada>
+                <tags>
+                    <tag>Kevin Costner</tag>
+                    <tag>Alan Rickman</tag>
+                    <tag>Medieval England</tag>
+                </tags>
+            </video>
+            <video timestamp="1942-08-23T00:00:00">
+                <URL>https://www.starwars.com/</URL>
+                <titol>Star Wars</titol>
+                <durada>00:00:23</durada>
+                <tags>
+                    <tag>Lucasfilm</tag>
+                    <tag>Darth Vader</tag>
+                    <tag>George Lucas</tag>
+                    <tag>Arruinado por Disney</tag>
+                </tags>
+            </video>
+        </videos>
+    </usuari>
+</database>

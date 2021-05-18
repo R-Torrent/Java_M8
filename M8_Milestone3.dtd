@@ -1,0 +1,15 @@
+﻿<!ELEMENT database (usuari*)>
+<!ELEMENT usuari (password,nom,cognom,videos)>
+<!ATTLIST usuari registre CDATA #REQUIRED>
+<!ATTLIST usuari update CDATA #REQUIRED>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognom (#PCDATA)>
+<!ELEMENT videos (video*)>
+<!ELEMENT video (URL,titol,durada,tags)>
+<!ATTLIST video timestamp CDATA #REQUIRED>
+<!ELEMENT URL (#PCDATA)>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT durada (#PCDATA)>
+<!ELEMENT tags (tag*)>
+<!ELEMENT tag (#PCDATA)>
